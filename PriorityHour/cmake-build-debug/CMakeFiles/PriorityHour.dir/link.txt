@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PriorityHour.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\PriorityHour.dir/objects.a @CMakeFiles\PriorityHour.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\PriorityHour.dir/objects.a -Wl,--no-whole-archive  -o PriorityHour.exe -Wl,--out-implib,libPriorityHour.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PriorityHour.dir\linklibs.rsp
