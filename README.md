@@ -14,7 +14,7 @@
 - Miklós Nándor
 	- Input files (.txt)
 		- Patients (30)
-			- [(Random Person Generator)](https://www.fakenamegenerator.com/gen-random-gr-gr.php)
+			- [Random Person Generator](https://www.fakenamegenerator.com/gen-random-gr-gr.php)
 			- ID (string)
 			- First Name (string)
 			- Last  Name (string)
