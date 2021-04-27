@@ -7,6 +7,7 @@
 - Csata L. Levente
 	- Patient
 	- Date
+	
 - Csillag Alex
 	- Menu
 	- BST
@@ -33,6 +34,7 @@
 ## Data structures
 
 ### Patient struct
+
 - Patient ID (string)
 - First Name (string)
 - Last Name (string)
@@ -42,6 +44,7 @@
 - Short description of symptoms (string)
 
 ### Date struct
+
 - Year (integer) (1900 -> 2020)
 - Month (integer) (1 -> 12)
 - Day (integer) (1 -> 31)
@@ -49,6 +52,20 @@
 - Minute (integer) (0 -> 60)
 
 ### Binary Search Tree (Node) struct
+
 - Patient (Patient)
 - Left (Node) -> NULL
 - Right (Node) -> NULL
+
+### Nationality
+
+- HUNGARIAN -> 0
+- ROMANIAN -> 1
+- GERMAN -> 2
+- FRENCH -> 3
+- AMERICAN -> 4
+- BRITISH -> 5
+- DANISH -> 6
+- ICELANDIC -> 7
+- IRISH -> 8
+- SWEDISH -> 9
