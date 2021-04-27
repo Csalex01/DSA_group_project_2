@@ -196,6 +196,33 @@ Patient.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient.c.s
 .PHONY : Patient.c.s
 
+Utility.obj: Utility.c.obj
+
+.PHONY : Utility.obj
+
+# target to build an object file
+Utility.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility.c.obj
+.PHONY : Utility.c.obj
+
+Utility.i: Utility.c.i
+
+.PHONY : Utility.i
+
+# target to preprocess a source file
+Utility.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility.c.i
+.PHONY : Utility.c.i
+
+Utility.s: Utility.c.s
+
+.PHONY : Utility.s
+
+# target to generate assembly for a file
+Utility.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility.c.s
+.PHONY : Utility.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -238,6 +265,9 @@ help:
 	@echo ... Patient.obj
 	@echo ... Patient.i
 	@echo ... Patient.s
+	@echo ... Utility.obj
+	@echo ... Utility.i
+	@echo ... Utility.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -48,6 +48,8 @@ Patient *readPatientFromFile(char *fileName) {
     int n;
     fscanf(fin, "%i", &n);
 
+    PATIENT_COUNT=n;
+
     Patient *patient = (Patient *) calloc(n, sizeof(Patient));
 
     if (!patient) {

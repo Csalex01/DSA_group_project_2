@@ -8,6 +8,7 @@
 
 #include "enums.h"
 #include "Date.h"
+#include "Utility.h"
 
 typedef struct {
     char ID[7];

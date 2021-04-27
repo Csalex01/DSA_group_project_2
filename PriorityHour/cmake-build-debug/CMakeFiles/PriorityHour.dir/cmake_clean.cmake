@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PriorityHour.dir/Date.c.obj"
   "CMakeFiles/PriorityHour.dir/Patient.c.obj"
+  "CMakeFiles/PriorityHour.dir/Utility.c.obj"
   "CMakeFiles/PriorityHour.dir/main.c.obj"
   "PriorityHour.exe"
   "PriorityHour.exe.manifest"
