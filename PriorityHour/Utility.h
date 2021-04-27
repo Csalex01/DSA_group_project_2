@@ -1,0 +1,10 @@
+//
+// Created by Legion on 4/27/2021.
+//
+
+#ifndef PRIORITYHOUR_UTILITY_H
+#define PRIORITYHOUR_UTILITY_H
+
+int PATIENT_COUNT;
+
+#endif //PRIORITYHOUR_UTILITY_H
