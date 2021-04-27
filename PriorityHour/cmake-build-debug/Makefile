@@ -142,6 +142,60 @@ PriorityHour/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/build
 .PHONY : PriorityHour/fast
 
+Date.obj: Date.c.obj
+
+.PHONY : Date.obj
+
+# target to build an object file
+Date.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Date.c.obj
+.PHONY : Date.c.obj
+
+Date.i: Date.c.i
+
+.PHONY : Date.i
+
+# target to preprocess a source file
+Date.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Date.c.i
+.PHONY : Date.c.i
+
+Date.s: Date.c.s
+
+.PHONY : Date.s
+
+# target to generate assembly for a file
+Date.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Date.c.s
+.PHONY : Date.c.s
+
+Patient.obj: Patient.c.obj
+
+.PHONY : Patient.obj
+
+# target to build an object file
+Patient.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient.c.obj
+.PHONY : Patient.c.obj
+
+Patient.i: Patient.c.i
+
+.PHONY : Patient.i
+
+# target to preprocess a source file
+Patient.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient.c.i
+.PHONY : Patient.c.i
+
+Patient.s: Patient.c.s
+
+.PHONY : Patient.s
+
+# target to generate assembly for a file
+Patient.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient.c.s
+.PHONY : Patient.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -178,6 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PriorityHour
+	@echo ... Date.obj
+	@echo ... Date.i
+	@echo ... Date.s
+	@echo ... Patient.obj
+	@echo ... Patient.i
+	@echo ... Patient.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

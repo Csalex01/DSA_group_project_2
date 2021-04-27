@@ -74,6 +74,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Date.c">
+			<Option target="PriorityHour"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Date.h">
+			<Option target="PriorityHour"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Patient.c">
+			<Option target="PriorityHour"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Patient.h">
+			<Option target="PriorityHour"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/enums.h">
+			<Option target="PriorityHour"/>
+		</Unit>
 		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/main.c">
 			<Option target="PriorityHour"/>
 		</Unit>
