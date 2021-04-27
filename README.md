@@ -27,7 +27,7 @@
 			- Nationality
 			- Symptoms (string, split by "_")
 			- Example:
-				- GER001 Eric Schweitzer 1 1986 12 12 3 Headache_Nausea_Hard_of_Hearing
+				- GER001 Eric Schweitzer 1 1986 12 12 3 German Headache_Nausea_Hard_of_Hearing
 
 ## Menu System
 
