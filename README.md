@@ -1,26 +1,5 @@
 # Priority Hour
 
-<<<<<<< Updated upstream
-Contributors
-
-
----Team Leader---
-
-
-  Csillag Alex
-  
-  
-----Employes---- 
-
-
-  Csata Levente
-  
-  
-  Miklós Nándor
-  
-  
-  :)))
-=======
 # Notes
 
 ## Roles
@@ -73,4 +52,3 @@ Contributors
 - Patient (Patient)
 - Left (Node) -> NULL
 - Right (Node) -> NULL
->>>>>>> Stashed changes
