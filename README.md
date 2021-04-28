@@ -20,11 +20,11 @@
 			- First Name (string)
 			- Last  Name (string)
 			- Sex (enum)
+			- Nationality
 			- Birt Date (Date)
 				- Year (int)
 				- Month (int)
 				- Day (int)
-			- Nationality
 			- Symptoms (string, split by "_")
 			- Example:
 				- GER001 Eric Schweitzer 1 3 1986 12 12 Headache_Nausea_Hard_of_Hearing
