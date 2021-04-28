@@ -7,10 +7,15 @@ CMakeFiles/PriorityHour.dir/Date.c.obj: ../Date.h
 CMakeFiles/PriorityHour.dir/Patient.c.obj: ../Date.h
 CMakeFiles/PriorityHour.dir/Patient.c.obj: ../Patient.c
 CMakeFiles/PriorityHour.dir/Patient.c.obj: ../Patient.h
+CMakeFiles/PriorityHour.dir/Patient.c.obj: ../Utility.h
 CMakeFiles/PriorityHour.dir/Patient.c.obj: ../enums.h
+
+CMakeFiles/PriorityHour.dir/Utility.c.obj: ../Utility.c
+CMakeFiles/PriorityHour.dir/Utility.c.obj: ../Utility.h
 
 CMakeFiles/PriorityHour.dir/main.c.obj: ../Date.h
 CMakeFiles/PriorityHour.dir/main.c.obj: ../Patient.h
+CMakeFiles/PriorityHour.dir/main.c.obj: ../Utility.h
 CMakeFiles/PriorityHour.dir/main.c.obj: ../enums.h
 CMakeFiles/PriorityHour.dir/main.c.obj: ../main.c
 
