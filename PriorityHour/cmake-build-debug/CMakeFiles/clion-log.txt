@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour"
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/cmake-build-debug
+-- Build files have been written to: E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/cmake-build-debug

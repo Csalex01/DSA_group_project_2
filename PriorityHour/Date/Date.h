@@ -1,9 +1,7 @@
-//
-// Created by Legion on 4/27/2021.
-//
-
 #ifndef PRIORITYHOUR_DATE_H
 #define PRIORITYHOUR_DATE_H
+
+#include <stdbool.h>
 
 typedef struct {
     int year;
@@ -14,6 +12,10 @@ typedef struct {
 } Date;
 
 Date *createDate(int year, int month, int day, int hour, int minute);
+
+bool isBigger(Date* date1, Date* date2);
+
+int convertToMinutes(Date* date);
 
 void printDate(Date* date);
 

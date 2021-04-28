@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour
+# Install script for directory: E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

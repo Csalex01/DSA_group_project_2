@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour
+CMAKE_SOURCE_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -142,86 +142,167 @@ PriorityHour/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/build
 .PHONY : PriorityHour/fast
 
-Date.obj: Date.c.obj
+BinarySearchTree/BST.obj: BinarySearchTree/BST.c.obj
 
-.PHONY : Date.obj
-
-# target to build an object file
-Date.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Date.c.obj
-.PHONY : Date.c.obj
-
-Date.i: Date.c.i
-
-.PHONY : Date.i
-
-# target to preprocess a source file
-Date.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Date.c.i
-.PHONY : Date.c.i
-
-Date.s: Date.c.s
-
-.PHONY : Date.s
-
-# target to generate assembly for a file
-Date.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Date.c.s
-.PHONY : Date.c.s
-
-Patient.obj: Patient.c.obj
-
-.PHONY : Patient.obj
+.PHONY : BinarySearchTree/BST.obj
 
 # target to build an object file
-Patient.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient.c.obj
-.PHONY : Patient.c.obj
+BinarySearchTree/BST.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.obj
+.PHONY : BinarySearchTree/BST.c.obj
 
-Patient.i: Patient.c.i
+BinarySearchTree/BST.i: BinarySearchTree/BST.c.i
 
-.PHONY : Patient.i
+.PHONY : BinarySearchTree/BST.i
 
 # target to preprocess a source file
-Patient.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient.c.i
-.PHONY : Patient.c.i
+BinarySearchTree/BST.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.i
+.PHONY : BinarySearchTree/BST.c.i
 
-Patient.s: Patient.c.s
+BinarySearchTree/BST.s: BinarySearchTree/BST.c.s
 
-.PHONY : Patient.s
+.PHONY : BinarySearchTree/BST.s
 
 # target to generate assembly for a file
-Patient.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient.c.s
-.PHONY : Patient.c.s
+BinarySearchTree/BST.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.s
+.PHONY : BinarySearchTree/BST.c.s
 
-Utility.obj: Utility.c.obj
+Date/Date.obj: Date/Date.c.obj
 
-.PHONY : Utility.obj
+.PHONY : Date/Date.obj
 
 # target to build an object file
-Utility.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility.c.obj
-.PHONY : Utility.c.obj
+Date/Date.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Date/Date.c.obj
+.PHONY : Date/Date.c.obj
 
-Utility.i: Utility.c.i
+Date/Date.i: Date/Date.c.i
 
-.PHONY : Utility.i
+.PHONY : Date/Date.i
 
 # target to preprocess a source file
-Utility.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility.c.i
-.PHONY : Utility.c.i
+Date/Date.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Date/Date.c.i
+.PHONY : Date/Date.c.i
 
-Utility.s: Utility.c.s
+Date/Date.s: Date/Date.c.s
 
-.PHONY : Utility.s
+.PHONY : Date/Date.s
 
 # target to generate assembly for a file
-Utility.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility.c.s
-.PHONY : Utility.c.s
+Date/Date.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Date/Date.c.s
+.PHONY : Date/Date.c.s
+
+Menu/Menu.obj: Menu/Menu.c.obj
+
+.PHONY : Menu/Menu.obj
+
+# target to build an object file
+Menu/Menu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Menu/Menu.c.obj
+.PHONY : Menu/Menu.c.obj
+
+Menu/Menu.i: Menu/Menu.c.i
+
+.PHONY : Menu/Menu.i
+
+# target to preprocess a source file
+Menu/Menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Menu/Menu.c.i
+.PHONY : Menu/Menu.c.i
+
+Menu/Menu.s: Menu/Menu.c.s
+
+.PHONY : Menu/Menu.s
+
+# target to generate assembly for a file
+Menu/Menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Menu/Menu.c.s
+.PHONY : Menu/Menu.c.s
+
+Patient/Patient.obj: Patient/Patient.c.obj
+
+.PHONY : Patient/Patient.obj
+
+# target to build an object file
+Patient/Patient.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient/Patient.c.obj
+.PHONY : Patient/Patient.c.obj
+
+Patient/Patient.i: Patient/Patient.c.i
+
+.PHONY : Patient/Patient.i
+
+# target to preprocess a source file
+Patient/Patient.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient/Patient.c.i
+.PHONY : Patient/Patient.c.i
+
+Patient/Patient.s: Patient/Patient.c.s
+
+.PHONY : Patient/Patient.s
+
+# target to generate assembly for a file
+Patient/Patient.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Patient/Patient.c.s
+.PHONY : Patient/Patient.c.s
+
+Reservation/Reservation.obj: Reservation/Reservation.c.obj
+
+.PHONY : Reservation/Reservation.obj
+
+# target to build an object file
+Reservation/Reservation.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj
+.PHONY : Reservation/Reservation.c.obj
+
+Reservation/Reservation.i: Reservation/Reservation.c.i
+
+.PHONY : Reservation/Reservation.i
+
+# target to preprocess a source file
+Reservation/Reservation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.i
+.PHONY : Reservation/Reservation.c.i
+
+Reservation/Reservation.s: Reservation/Reservation.c.s
+
+.PHONY : Reservation/Reservation.s
+
+# target to generate assembly for a file
+Reservation/Reservation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.s
+.PHONY : Reservation/Reservation.c.s
+
+Utility/Utility.obj: Utility/Utility.c.obj
+
+.PHONY : Utility/Utility.obj
+
+# target to build an object file
+Utility/Utility.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility/Utility.c.obj
+.PHONY : Utility/Utility.c.obj
+
+Utility/Utility.i: Utility/Utility.c.i
+
+.PHONY : Utility/Utility.i
+
+# target to preprocess a source file
+Utility/Utility.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility/Utility.c.i
+.PHONY : Utility/Utility.c.i
+
+Utility/Utility.s: Utility/Utility.c.s
+
+.PHONY : Utility/Utility.s
+
+# target to generate assembly for a file
+Utility/Utility.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility/Utility.c.s
+.PHONY : Utility/Utility.c.s
 
 main.obj: main.c.obj
 
@@ -259,15 +340,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PriorityHour
-	@echo ... Date.obj
-	@echo ... Date.i
-	@echo ... Date.s
-	@echo ... Patient.obj
-	@echo ... Patient.i
-	@echo ... Patient.s
-	@echo ... Utility.obj
-	@echo ... Utility.i
-	@echo ... Utility.s
+	@echo ... BinarySearchTree/BST.obj
+	@echo ... BinarySearchTree/BST.i
+	@echo ... BinarySearchTree/BST.s
+	@echo ... Date/Date.obj
+	@echo ... Date/Date.i
+	@echo ... Date/Date.s
+	@echo ... Menu/Menu.obj
+	@echo ... Menu/Menu.i
+	@echo ... Menu/Menu.s
+	@echo ... Patient/Patient.obj
+	@echo ... Patient/Patient.i
+	@echo ... Patient/Patient.s
+	@echo ... Reservation/Reservation.obj
+	@echo ... Reservation/Reservation.i
+	@echo ... Reservation/Reservation.s
+	@echo ... Utility/Utility.obj
+	@echo ... Utility/Utility.i
+	@echo ... Utility/Utility.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

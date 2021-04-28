@@ -1,35 +1,31 @@
-//
-// Created by Legion on 4/27/2021.
-//
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-
-#include "Patient.h"
-#include "Date.h"
+#include "../Utility/Utility.h"
 
 Patient *createPatent(char *ID,
                       char *fistName,
                       char *lastName,
                       enum Sex sex,
                       enum Nationality nationality,
-                      Date birthDate,
-                      char* symptoms){
+                      Date* birthDate,
+                      char *symptoms) {
 
     Patient *patient = (Patient *) malloc(sizeof(Patient));
 
     if (!patient) {
-        printf("Failed to allocate memory for Person");
+        printf("Failed to allocate memory for Patient");
         return NULL;
     }
+
     strcpy(patient->ID, ID);
     strcpy(patient->firstName, fistName);
     strcpy(patient->lastName, lastName);
     patient->sex = sex;
-    patient->nationality=nationality;
-    patient->birthDate = birthDate;
-    strcpy(patient->symptoms,symptoms);
+    patient->nationality = nationality;
+    patient->birthDate = *birthDate;
+    strcpy(patient->symptoms, symptoms);
 
 
     return patient;
@@ -48,7 +44,7 @@ Patient *readPatientFromFile(char *fileName) {
     int n;
     fscanf(fin, "%i", &n);
 
-    PATIENT_COUNT=n;
+    PATIENT_COUNT = n;
 
     Patient *patient = (Patient *) calloc(n, sizeof(Patient));
 
@@ -65,11 +61,10 @@ Patient *readPatientFromFile(char *fileName) {
     char symptoms[50];
 
     int year, month, day;
-    Date birthDate;
+    Date* birthDate;
 
     enum Sex sex;
     enum Nationality nationality;
-
 
 
     for (int i = 0; i < n; i++) {
@@ -86,9 +81,9 @@ Patient *readPatientFromFile(char *fileName) {
 
         fscanf(fin, "%s", symptoms);
 
-        birthDate = *createDate(year, month, day,0 ,0);
+        birthDate = createDate(year, month, day, 0, 0);
 
-        patient[i] = *createPatent(ID, firstName, lastName, sex, nationality, birthDate,symptoms);
+        patient[i] = *createPatent(ID, firstName, lastName, sex, nationality, birthDate, symptoms);
     }
 
     fclose(fin);
@@ -143,10 +138,10 @@ void printPatient(Patient *patient) {
 
     printf(")\n");
 
-    printf("\tSymptoms: \t%s\n", patient->symptoms);
+    printf("\tSymptoms: \t%s\n\n", patient->symptoms);
 }
 
-void killPatient(Patient* patient){
-        free(patient);
-        patient=NULL;
+void killPatient(Patient *patient) {
+    free(patient);
+    patient = NULL;
 }

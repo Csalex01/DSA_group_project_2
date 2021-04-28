@@ -6,14 +6,18 @@
 
 - Csata L. Levente
 	- Patient
+		- Print all patients (void printAllPatients)
 	- Date
 	
 - Csillag Alex
 	- Menu
 	- BST
+		- Delete reservation from BST
+	- Reservation
+		- Get date from standard input (keyboard)
 	
 - Miklós Nándor
-	- Input files (.txt)
+	- Input files (.txt) (COMPLETED)
 		- Patients (30)
 			- [Random Person Generator](https://www.fakenamegenerator.com/gen-random-gr-gr.php)
 			- ID (string)
@@ -27,11 +31,17 @@
 				- Day (int)
 			- Symptoms (string, split by "_")
 			- Example:
-				- GER001 Eric Schweitzer 1 3 1986 12 12 Headache_Nausea_Hard_of_Hearing
+				- GER001 Eric Schweitzer 0 3 1986 12 12 Headache_Nausea_Hard_of_Hearing
 
 ## Menu System
 
 ## Data structures
+
+### BinarySearchTree struct 
+
+- Reservation (Reservation)
+- Left (BST)
+- Right (BST)
 
 ### Patient struct
 
@@ -42,6 +52,11 @@
 - Nationality (enum)
 - Birt Date (Date struct) \[(year, month, day) integer\]
 - Short description of symptoms (string)
+
+### Reservation  struct
+
+- PatientID (string)
+- ScheduledDate (Date)
 
 ### Date struct
 

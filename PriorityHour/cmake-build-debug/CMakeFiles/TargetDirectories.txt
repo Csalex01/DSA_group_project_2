@@ -1,3 +1,3 @@
-C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/cmake-build-debug/CMakeFiles/PriorityHour.dir
-C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/cmake-build-debug/CMakeFiles/PriorityHour.dir
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/cmake-build-debug/CMakeFiles/rebuild_cache.dir

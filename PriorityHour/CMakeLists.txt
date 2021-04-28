@@ -3,4 +3,4 @@ project(PriorityHour C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(PriorityHour main.c Patient.c Patient.h enums.h Date.c Date.h Utility.c Utility.h)
+add_executable(PriorityHour main.c Patient/Patient.c Patient/Patient.h enums.h Date/Date.c Date/Date.h Utility/Utility.c Utility/Utility.h BinarySearchTree/BST.c BinarySearchTree/BST.h Reservation/Reservation.c Reservation/Reservation.h Menu/Menu.c Menu/Menu.h)

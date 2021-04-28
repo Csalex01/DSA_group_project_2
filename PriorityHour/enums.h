@@ -1,11 +1,7 @@
-//
-// Created by Legion on 4/27/2021.
-//
-
 #ifndef PRIORITYHOUR_ENUMS_H
 #define PRIORITYHOUR_ENUMS_H
 
-enum Nationality{
+enum Nationality {
     HUNGARIAN = 0,
     ROMANIAN = 1,
     GERMAN = 2,
@@ -18,8 +14,8 @@ enum Nationality{
     SWEDISH = 9
 };
 
-enum Sex{
-    Man = 0,
-    Women = 1
+enum Sex {
+    FEMALE = 0,
+    MALE = 1
 };
 #endif //PRIORITYHOUR_ENUMS_H

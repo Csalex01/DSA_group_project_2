@@ -1,14 +1,8 @@
-//
-// Created by Legion on 4/27/2021.
-//
-
 #ifndef PRIORITYHOUR_PATIENT_H
 #define PRIORITYHOUR_PATIENT_H
 
-
-#include "enums.h"
-#include "Date.h"
-#include "Utility.h"
+#include "../enums.h"
+#include "../Date/Date.h"
 
 typedef struct {
     char ID[7];
@@ -28,7 +22,7 @@ Patient *createPatent(char* ID,
                       char* lastName,
                       enum Sex sex,
                       enum Nationality nationality,
-                      Date birthDate,
+                      Date* birthDate,
                       char* symptoms);
 
 Patient *readPatientFromFile(char *fileName);
