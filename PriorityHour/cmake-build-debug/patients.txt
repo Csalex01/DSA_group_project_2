@@ -2,8 +2,11 @@
 HUN001 Gidro Zoltan 1 1 1902 4 11 Headache_Nausea_Hard_of_Hearing
 HUN002 Vass Zoltan 1 1 1910 12 15 Headache_Nausea_Hard_of_Hearing
 HUN003 Lakatos Krisztian 1 1 1921 12 27 Headache_Nausea_Hard_of_Hearing
-HUN004 Virag Mihaly 1 1 1940 4 29 Headache_Nausea_Hard_of_Hearing
-HUN005 Antal Brigitta 0 1 1954 1 20 Headache_Nausea_Hard_of_Hearing
+HUN004 Csillag Alex 1 1 2001 12 19 Headache_Nausea_Hard_of_Hearing
+HUN005 Csata Levente 1 1 2001 2 15 Fever_And_Fatigue
+HUN006 Miklos Nandor 1 1 2001 3 10 Sore_Throat
+HUN007 Virag Mihaly 1 1 1940 4 29 Headache_Nausea_Hard_of_Hearing
+HUN008 Antal Brigitta 0 1 1954 1 20 Headache_Nausea_Hard_of_Hearing
 ROM001 Anisoara Ioan 1 2 1970 9 22 Headache_Nausea_Hard_of_Hearing
 ROM002 Atanase Aurora 0 2 1990 2 6 Headache_Nausea_Hard_of_Hearing
 ROM003 Iosif Sara 0 2 1990 2 6 Headache_Nausea_Hard_of_Hearing
