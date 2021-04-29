@@ -141,6 +141,13 @@ void printPatient(Patient *patient) {
     printf("\tSymptoms: \t%s\n\n", patient->symptoms);
 }
 
+void printAllPatient(Patient* patient){
+
+    for(int i=0;i<PATIENT_COUNT;i++){
+        printPatient(&patient[i]);
+    }
+}
+
 void killPatient(Patient *patient) {
     free(patient);
     patient = NULL;

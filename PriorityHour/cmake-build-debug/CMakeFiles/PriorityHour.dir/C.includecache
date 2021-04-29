@@ -6,43 +6,37 @@
 
 #IncludeRegexTransform: 
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/BinarySearchTree/BST.c
-BST.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/BinarySearchTree/BST.h
-../Utility/Utility.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Utility/Utility.h
-
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/BinarySearchTree/BST.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/BinarySearchTree/BST.h
 ../Reservation/Reservation.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Reservation/Reservation.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Reservation/Reservation.h
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Date/Date.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Date/Date.h
 stdbool.h
 -
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Patient/Patient.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Patient/Patient.h
 ../enums.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/enums.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/enums.h
 ../Date/Date.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Date/Date.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Date/Date.h
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Reservation/Reservation.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Reservation/Reservation.h
 ../Date/Date.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Date/Date.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Date/Date.h
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Utility/Utility.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Utility/Utility.h
 stdlib.h
 -
 stdio.h
 -
 ../Patient/Patient.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Patient/Patient.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Patient/Patient.h
 ../BinarySearchTree/BST.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/BinarySearchTree/BST.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/BinarySearchTree/BST.h
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/enums.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/enums.h
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/main.c
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/main.c
 Utility/Utility.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Utility/Utility.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_group_project_2/PriorityHour/Utility/Utility.h
 
