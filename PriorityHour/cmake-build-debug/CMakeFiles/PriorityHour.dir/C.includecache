@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/BinarySearchTree/BST.c
-BST.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/BinarySearchTree/BST.h
-../Utility/Utility.h
-E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Utility/Utility.h
-
 E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/BinarySearchTree/BST.h
 ../Reservation/Reservation.h
 E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Reservation/Reservation.h

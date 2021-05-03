@@ -33,19 +33,22 @@ Reservation *findMax(BST *tree) {
 }
 
 void insert(BST **tree, Reservation *reservation) {
+    if(reservation == NULL)
+        return;
+
     if ((*tree) == NULL) {
         *tree = createBST(reservation);
     } else {
 
-//        Reservation *maxReservation = findMax(*tree);
-//
-//        int sum1 = convertToMinutes(maxReservation->scheduleDate);
-//        int sum2 = convertToMinutes(reservation->scheduleDate);
-//
-//        if (abs(sum1 - sum2) < reservation->timespan) {
-//            printf("Failed to add reservation to BST because reservations are overlapping!\n");
-//            return;
-//        }
+        Reservation *maxReservation = findMax(*tree);
+
+        int sum1 = convertToMinutes(maxReservation->scheduleDate);
+        int sum2 = convertToMinutes(reservation->scheduleDate);
+
+        if (abs(sum1 - sum2) < reservation->timespan) {
+            printf("Failed to add reservation to BST because reservations are overlapping!\n");
+            return;
+        }
 
         if (isBigger((*tree)->reservation->scheduleDate, reservation->scheduleDate))
             insert(&((*tree)->left), reservation);
@@ -87,6 +90,9 @@ BST *deleteFromBST(BST *tree, Reservation *reservation) {
 }
 
 void traverse(BST *tree) {
+    if(tree == NULL)
+        return;
+
     if (tree->left)
         traverse(tree->left);
 

@@ -11,9 +11,11 @@
 
 /// Vectors
 Patient* PATIENTS;
+Reservation* RESERVATIONS;
 
 /// Counters
 int PATIENT_COUNT;
+int RESERVATION_COUNT;
 
 /// ----------
 

@@ -1,15 +1,15 @@
 30
 HUN001 Gidro Zoltan 1 1 1902 4 11 Headache_Nausea_Hard_of_Hearing
 HUN002 Vass Zoltan 1 1 1910 12 15 Headache_Nausea_Hard_of_Hearing
-HUN003 Lakatos Krisztian 1 1 1921 12 27 Headache_Nausea_Hard_of_Hearing
-HUN004 Virag Mihaly 1 1 1940 4 29 Headache_Nausea_Hard_of_Hearing
+HUN003 Csata Levente 1 1 2001 2 15 Headache_Nausea_Hard_of_Hearing
+HUN004 Csillag Alex 1 1 2001 12 19 Headache_Nausea_Hard_of_Hearing
 HUN005 Antal Brigitta 0 1 1954 1 20 Headache_Nausea_Hard_of_Hearing
 ROM001 Anisoara Ioan 1 2 1970 9 22 Headache_Nausea_Hard_of_Hearing
 ROM002 Atanase Aurora 0 2 1990 2 6 Headache_Nausea_Hard_of_Hearing
 ROM003 Iosif Sara 0 2 1990 2 6 Headache_Nausea_Hard_of_Hearing
-ROM004  Dorinel Anca 0 2 1909 1 14 Headache_Nausea_Hard_of_Hearing
+ROM004 Dorinel Anca 0 2 1909 1 14 Headache_Nausea_Hard_of_Hearing
 ROM005 Remus Ozana 0 2 1932 9 29 Headache_Nausea_Hard_of_Hearing
-GER001  Eric Schweitzer 1 3 1986 12 12 Headache_Nausea_Hard_of_Hearing
+GER001 Eric Schweitzer 1 3 1986 12 12 Headache_Nausea_Hard_of_Hearing
 GER002 Emanuel Sandra 0 3 1967 3 24 Headache_Nausea_Hard_of_Hearing
 GER003 Heidrun Liese 1 3 1980 7 17 Headache_Nausea_Hard_of_Hearing
 GER004 Jana Florian 1 3 1981 6 19 Headache_Nausea_Hard_of_Hearing

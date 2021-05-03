@@ -11,6 +11,8 @@ typedef struct {
 
 Reservation* createReservation(char patientID[7], Date* scheduleDate);
 
+Reservation* readReservationFromFile(char* fileName);
+
 void destroyReservation(Reservation* reservation);
 
 #endif //PRIORITYHOUR_RESERVATION_H

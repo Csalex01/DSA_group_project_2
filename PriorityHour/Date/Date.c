@@ -37,15 +37,13 @@ int convertToMinutes(Date *date) {
         date->month == 12) {
         sum += date->month * 31 * 24 * 60;
         sum += date->year * 12 * 31 * 24 * 60;
-    }
-    else if (date->month == 4 ||
-             date->month == 6 ||
-             date->month == 9 ||
-             date->month == 11) {
+    } else if (date->month == 4 ||
+               date->month == 6 ||
+               date->month == 9 ||
+               date->month == 11) {
         sum += date->month * 30 * 24 * 60;
         sum += date->year * 12 * 30 * 24 * 60;
-    }
-    else if (date->month == 2) {
+    } else if (date->month == 2) {
         sum += date->month * 28 * 24 * 60;
         sum += date->year * 12 * 28 * 24 * 60;
     }
@@ -54,22 +52,53 @@ int convertToMinutes(Date *date) {
 }
 
 bool isBigger(Date *date1, Date *date2) {
-    if (date1->year > date2->year)
+    // TODO: Refactor shitty code and escape branch hell.
+
+    if (date1 == NULL || date2 == NULL)
+        return false;
+
+    if (date1->year > date2->year) {
         return true;
 
-    if (date1->month > date2->month)
-        return true;
+    } else if (date1->year < date2->year) {
+        return false;
 
-    if (date1->day > date2->day)
-        return true;
+    } else {
+        if (date1->month > date2->month) {
+            return true;
 
-    if (date1->hour > date2->hour)
-        return true;
+        } else if (date1->month < date2->month) {
+            return false;
 
-    if (date1->minute > date2->minute)
-        return true;
+        } else {
+            if (date1->day > date2->day) {
+                return true;
 
-    return false;
+            } else if (date1->day < date2->day) {
+                return false;
+
+            } else {
+                if (date1->hour > date2->hour) {
+                    return true;
+
+                } else if (date1->hour < date2->hour) {
+                    return false;
+
+                } else {
+                    if (date1->minute > date2->minute) {
+                        return true;
+
+                    } else if (date1->minute < date2->minute) {
+                        return false;
+
+                    } else {
+                        return false;
+
+                    }
+                }
+            }
+        }
+    }
 }
 
 void printDate(Date *date) {

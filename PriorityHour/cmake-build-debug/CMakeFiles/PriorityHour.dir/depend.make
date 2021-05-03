@@ -23,9 +23,13 @@ CMakeFiles/PriorityHour.dir/Patient/Patient.c.obj: ../Reservation/Reservation.h
 CMakeFiles/PriorityHour.dir/Patient/Patient.c.obj: ../Utility/Utility.h
 CMakeFiles/PriorityHour.dir/Patient/Patient.c.obj: ../enums.h
 
+CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj: ../BinarySearchTree/BST.h
 CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj: ../Date/Date.h
+CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj: ../Patient/Patient.h
 CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj: ../Reservation/Reservation.c
 CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj: ../Reservation/Reservation.h
+CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj: ../Utility/Utility.h
+CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj: ../enums.h
 
 CMakeFiles/PriorityHour.dir/Utility/Utility.c.obj: ../BinarySearchTree/BST.h
 CMakeFiles/PriorityHour.dir/Utility/Utility.c.obj: ../Date/Date.h

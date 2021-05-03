@@ -12,7 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0826cb60-a285-4dbc-aceb-1e6b44bc2654" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/reservations.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchTree/BST.c" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/BST.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Date/Date.c" beforeDir="false" afterPath="$PROJECT_DIR$/Date/Date.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reservation/Reservation.c" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/Reservation.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reservation/Reservation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/Reservation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/Utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/Utility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/patients.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/patients.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +79,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PriorityHour" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PriorityHour" TARGET_NAME="PriorityHour" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PriorityHour" RUN_TARGET_NAME="PriorityHour">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -80,6 +87,11 @@
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -99,6 +111,7 @@
       <workItem from="1619600872929" duration="87000" />
       <workItem from="1619600983524" duration="27000" />
       <workItem from="1619622367769" duration="7669000" />
+      <workItem from="1620056357426" duration="5358000" />
     </task>
     <task id="LOCAL-00001" summary="Patient+Date(50%)">
       <created>1619545774355</created>
