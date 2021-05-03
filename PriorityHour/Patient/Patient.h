@@ -29,6 +29,8 @@ Patient *readPatientFromFile(char *fileName);
 
 void printPatient(Patient *patient);
 
+void printAllPatient(Patient* patient);
+
 void killPatient(Patient* patient);
 
 #endif //PRIORITYHOUR_PATIENT_H

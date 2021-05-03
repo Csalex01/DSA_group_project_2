@@ -5,9 +5,9 @@
 ## Roles
 
 - Csata L. Levente
-	- Patient
-		- Print all patients (void printAllPatients)
-	- Date
+	- Patient(Done)
+		- Print all patients (void printAllPatients)(Done)
+	- Date(Done)
 	
 - Csillag Alex
 	- Menu
@@ -31,7 +31,7 @@
 				- Day (int)
 			- Symptoms (string, split by "_")
 			- Example:
-				- GER001 Eric Schweitzer 0 3 1986 12 12 Headache_Nausea_Hard_of_Hearing
+				- GER001 Eric Schweitzer 0 3 1986 12 12 Headache_Nausea_Hard_of_Hearing(Done)
 
 ## Menu System
 
@@ -43,7 +43,7 @@
 - Left (BST)
 - Right (BST)
 
-### Patient struct
+### Patient struct(Done)
 
 - Patient ID (string)
 - First Name (string)
