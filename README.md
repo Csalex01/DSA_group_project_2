@@ -12,7 +12,6 @@
 - Csillag Alex
 	- Menu
 	- BST
-		- Delete reservation from BST
 	- Reservation
 		- Get date from standard input (keyboard)
 	
