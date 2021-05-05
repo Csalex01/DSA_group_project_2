@@ -11,11 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0826cb60-a285-4dbc-aceb-1e6b44bc2654" name="Default Changelist" comment="">
+    <list default="true" id="0826cb60-a285-4dbc-aceb-1e6b44bc2654" name="Default Changelist" comment="Reservation.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/reservations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/reservations.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +76,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +94,8 @@
       <workItem from="1619600983524" duration="27000" />
       <workItem from="1619622367769" duration="7669000" />
       <workItem from="1620056357426" duration="5358000" />
-      <workItem from="1620136986394" duration="496000" />
+      <workItem from="1620136986394" duration="599000" />
+      <workItem from="1620197255645" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="Patient+Date(50%)">
       <created>1619545774355</created>
@@ -143,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619630077872</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Reservation.txt">
+      <created>1620137521714</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620137521714</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +168,7 @@
     <MESSAGE value="Patient+Date(50%)" />
     <MESSAGE value="Hiba" />
     <MESSAGE value="Added BST etc.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added BST etc.." />
+    <MESSAGE value="Reservation.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reservation.txt" />
   </component>
 </project>
