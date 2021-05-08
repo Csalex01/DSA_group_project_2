@@ -11,29 +11,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0826cb60-a285-4dbc-aceb-1e6b44bc2654" name="Default Changelist" comment="Reservation.txt">
+    <list default="true" id="0826cb60-a285-4dbc-aceb-1e6b44bc2654" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BinarySearchTree/BST.c" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/BST.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTree/BST.h" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/BST.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Date/Date.c" beforeDir="false" afterPath="$PROJECT_DIR$/Date/Date.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Menu/Menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/Menu.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Menu/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/Menu.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Patient/Patient.c" beforeDir="false" afterPath="$PROJECT_DIR$/Patient/Patient.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patient/Patient.h" beforeDir="false" afterPath="$PROJECT_DIR$/Patient/Patient.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reservation/Reservation.c" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/Reservation.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utility/Utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/Utility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PriorityHour.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PriorityHour.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reservation/Reservation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Reservation/Reservation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PriorityHour.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/patients.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/patients.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/reservations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/reservations.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +39,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -90,11 +88,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PriorityHour" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PriorityHour" TARGET_NAME="PriorityHour" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PriorityHour" RUN_TARGET_NAME="PriorityHour">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -126,7 +119,8 @@
       <workItem from="1620136986394" duration="599000" />
       <workItem from="1620197255645" duration="34000" />
       <workItem from="1620200754670" duration="3881000" />
-      <workItem from="1620406004534" duration="5551000" />
+      <workItem from="1620406004534" duration="5581000" />
+      <workItem from="1620489079341" duration="3419000" />
     </task>
     <task id="LOCAL-00001" summary="Patient+Date(50%)">
       <created>1619545774355</created>
@@ -177,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620137521714</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Menu system + Submenus">
+      <created>1620454715345</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620454715345</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +201,7 @@
     <MESSAGE value="Hiba" />
     <MESSAGE value="Added BST etc.." />
     <MESSAGE value="Reservation.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reservation.txt" />
+    <MESSAGE value="Menu system + Submenus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu system + Submenus" />
   </component>
 </project>

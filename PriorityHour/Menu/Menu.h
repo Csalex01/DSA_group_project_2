@@ -15,4 +15,8 @@ void reservationOperations();
 // Helper functions for patient operations
 void patientOperations_findPatientById();
 
+// Helper functions for reservation operations
+void reservationOperations_addNewReservation();
+void reservationOperations_deleteReservation();
+
 #endif //PRIORITYHOUR_MENU_H

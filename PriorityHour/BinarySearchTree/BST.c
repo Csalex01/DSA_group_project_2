@@ -96,13 +96,15 @@ void traverse(BST *tree) {
     if (tree->left)
         traverse(tree->left);
 
-    printf("%s -> %i-%i-%i %i:%i\n ",
-           tree->reservation->patientID,
-           tree->reservation->scheduleDate->year,
-           tree->reservation->scheduleDate->month,
-           tree->reservation->scheduleDate->day,
-           tree->reservation->scheduleDate->hour,
-           tree->reservation->scheduleDate->minute);
+//    printf("%s -> %i-%i-%i %i:%i\n ",
+//           tree->reservation->patientID,
+//           tree->reservation->scheduleDate->year,
+//           tree->reservation->scheduleDate->month,
+//           tree->reservation->scheduleDate->day,
+//           tree->reservation->scheduleDate->hour,
+//           tree->reservation->scheduleDate->minute);
+
+    printReservation(tree->reservation);
 
     if (tree->right)
         traverse(tree->right);

@@ -9,7 +9,7 @@
 void activateMenu() {
     int choice;
 
-    while(true) {
+    while (true) {
         printf("\n");
         printf("=======> PriorityHour <=======\n");
         printf("          -> MENU <-        \n\n");
@@ -43,7 +43,7 @@ void activateMenu() {
 void patientOperations() {
     int choice;
 
-    while(true) {
+    while (true) {
         printf("\n");
         printf("=======> PriorityHour <=======\n");
         printf("        -> PATIENTS <-      \n\n");
@@ -77,7 +77,39 @@ void patientOperations() {
 }
 
 void reservationOperations() {
-    printf("RESERVATION OPERATIONS");
+    int choice;
+
+    while (true) {
+        printf("\n");
+        printf("=======> PriorityHour <=======\n");
+        printf("      -> RESERVATIONS <-    \n\n");
+        printf("> 1. Add a new reservation    \n");
+        printf("> 2. Delete a reservation     \n");
+        printf("> 3. Print all reservations   \n");
+        printf("> 4. Back to main menu        \n");
+        printf("<---------------------------->\n");
+        printf("> Choice: ");
+
+        scanf("%i", &choice);
+        printf("\n");
+
+        switch (choice) {
+            case 1:
+                reservationOperations_addNewReservation();
+                break;
+            case 2:
+                reservationOperations_deleteReservation();
+                break;
+            case 3:
+                traverse(TREE);
+                break;
+            case 4:
+                activateMenu();
+            default:
+                printf("==> Error: UNDEFINED INPUT <==\n");
+                exit(-1);
+        }
+    }
 }
 
 // Helper functions for patient operations
@@ -90,4 +122,48 @@ void patientOperations_findPatientById() {
     printf("\n");
 
     printPatient(findPatientById(ID));
+}
+
+// Helper functions for reservation operations
+void reservationOperations_addNewReservation() {
+    char ID[7];
+
+    Date *scheduleDate;
+    int year, month, day, hour, minute;
+
+    printf("Patient ID: ");
+    scanf("%s", ID);
+    printf("\n");
+
+    if (!findPatientById(ID)) {
+        printf("The patient does not exist!\n");
+        return;
+    }
+
+    printf("Schedule date (YYYY MM DD hh mm): ");
+    scanf("%i %i %i %i %i", &year, &month, &day, &hour, &minute);
+    printf("\n");
+
+
+    scheduleDate = createDate(year, month, day, hour, minute);
+
+    Reservation *reservation = createReservation(ID, scheduleDate);
+
+//    RESERVATION_COUNT++;
+//    RESERVATIONS = (Reservation *) realloc(RESERVATIONS, RESERVATION_COUNT);
+//    RESERVATIONS[RESERVATION_COUNT - 1] = *reservation;
+
+    insert(&TREE, reservation);
+}
+
+void reservationOperations_deleteReservation() {
+    char ID[7];
+
+    printf("ID: ");
+    scanf("%s", ID);
+    printf("\n");
+
+    Reservation* reservation = findReservationByPatientID(ID);
+
+    deleteFromBST(TREE, reservation);
 }

@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour
+CMAKE_SOURCE_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PriorityHour.dir/depend.make
@@ -78,94 +78,94 @@ include CMakeFiles/PriorityHour.dir/flags.make
 
 CMakeFiles/PriorityHour.dir/main.c.obj: CMakeFiles/PriorityHour.dir/flags.make
 CMakeFiles/PriorityHour.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PriorityHour.dir/main.c.obj"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\main.c.obj   -c C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PriorityHour.dir/main.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\main.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\main.c"
 
 CMakeFiles/PriorityHour.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PriorityHour.dir/main.c.i"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\main.c > CMakeFiles\PriorityHour.dir\main.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\main.c" > CMakeFiles\PriorityHour.dir\main.c.i
 
 CMakeFiles/PriorityHour.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PriorityHour.dir/main.c.s"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\main.c -o CMakeFiles\PriorityHour.dir\main.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\main.c" -o CMakeFiles\PriorityHour.dir\main.c.s
 
 CMakeFiles/PriorityHour.dir/Patient/Patient.c.obj: CMakeFiles/PriorityHour.dir/flags.make
 CMakeFiles/PriorityHour.dir/Patient/Patient.c.obj: ../Patient/Patient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/PriorityHour.dir/Patient/Patient.c.obj"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Patient\Patient.c.obj   -c C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Patient\Patient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/PriorityHour.dir/Patient/Patient.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Patient\Patient.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Patient\Patient.c"
 
 CMakeFiles/PriorityHour.dir/Patient/Patient.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PriorityHour.dir/Patient/Patient.c.i"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Patient\Patient.c > CMakeFiles\PriorityHour.dir\Patient\Patient.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Patient\Patient.c" > CMakeFiles\PriorityHour.dir\Patient\Patient.c.i
 
 CMakeFiles/PriorityHour.dir/Patient/Patient.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PriorityHour.dir/Patient/Patient.c.s"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Patient\Patient.c -o CMakeFiles\PriorityHour.dir\Patient\Patient.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Patient\Patient.c" -o CMakeFiles\PriorityHour.dir\Patient\Patient.c.s
 
 CMakeFiles/PriorityHour.dir/Date/Date.c.obj: CMakeFiles/PriorityHour.dir/flags.make
 CMakeFiles/PriorityHour.dir/Date/Date.c.obj: ../Date/Date.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PriorityHour.dir/Date/Date.c.obj"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Date\Date.c.obj   -c C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Date\Date.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PriorityHour.dir/Date/Date.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Date\Date.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Date\Date.c"
 
 CMakeFiles/PriorityHour.dir/Date/Date.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PriorityHour.dir/Date/Date.c.i"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Date\Date.c > CMakeFiles\PriorityHour.dir\Date\Date.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Date\Date.c" > CMakeFiles\PriorityHour.dir\Date\Date.c.i
 
 CMakeFiles/PriorityHour.dir/Date/Date.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PriorityHour.dir/Date/Date.c.s"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Date\Date.c -o CMakeFiles\PriorityHour.dir\Date\Date.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Date\Date.c" -o CMakeFiles\PriorityHour.dir\Date\Date.c.s
 
 CMakeFiles/PriorityHour.dir/Utility/Utility.c.obj: CMakeFiles/PriorityHour.dir/flags.make
 CMakeFiles/PriorityHour.dir/Utility/Utility.c.obj: ../Utility/Utility.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PriorityHour.dir/Utility/Utility.c.obj"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Utility\Utility.c.obj   -c C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Utility\Utility.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PriorityHour.dir/Utility/Utility.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Utility\Utility.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Utility\Utility.c"
 
 CMakeFiles/PriorityHour.dir/Utility/Utility.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PriorityHour.dir/Utility/Utility.c.i"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Utility\Utility.c > CMakeFiles\PriorityHour.dir\Utility\Utility.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Utility\Utility.c" > CMakeFiles\PriorityHour.dir\Utility\Utility.c.i
 
 CMakeFiles/PriorityHour.dir/Utility/Utility.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PriorityHour.dir/Utility/Utility.c.s"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Utility\Utility.c -o CMakeFiles\PriorityHour.dir\Utility\Utility.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Utility\Utility.c" -o CMakeFiles\PriorityHour.dir\Utility\Utility.c.s
 
 CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.obj: CMakeFiles/PriorityHour.dir/flags.make
 CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.obj: ../BinarySearchTree/BST.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.obj"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\BinarySearchTree\BST.c.obj   -c C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\BinarySearchTree\BST.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\BinarySearchTree\BST.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\BinarySearchTree\BST.c"
 
 CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.i"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\BinarySearchTree\BST.c > CMakeFiles\PriorityHour.dir\BinarySearchTree\BST.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\BinarySearchTree\BST.c" > CMakeFiles\PriorityHour.dir\BinarySearchTree\BST.c.i
 
 CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PriorityHour.dir/BinarySearchTree/BST.c.s"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\BinarySearchTree\BST.c -o CMakeFiles\PriorityHour.dir\BinarySearchTree\BST.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\BinarySearchTree\BST.c" -o CMakeFiles\PriorityHour.dir\BinarySearchTree\BST.c.s
 
 CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj: CMakeFiles/PriorityHour.dir/flags.make
 CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj: ../Reservation/Reservation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Reservation\Reservation.c.obj   -c C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Reservation\Reservation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Reservation\Reservation.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Reservation\Reservation.c"
 
 CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.i"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Reservation\Reservation.c > CMakeFiles\PriorityHour.dir\Reservation\Reservation.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Reservation\Reservation.c" > CMakeFiles\PriorityHour.dir\Reservation\Reservation.c.i
 
 CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.s"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Reservation\Reservation.c -o CMakeFiles\PriorityHour.dir\Reservation\Reservation.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Reservation\Reservation.c" -o CMakeFiles\PriorityHour.dir\Reservation\Reservation.c.s
 
 CMakeFiles/PriorityHour.dir/Menu/Menu.c.obj: CMakeFiles/PriorityHour.dir/flags.make
 CMakeFiles/PriorityHour.dir/Menu/Menu.c.obj: ../Menu/Menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PriorityHour.dir/Menu/Menu.c.obj"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Menu\Menu.c.obj   -c C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Menu\Menu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PriorityHour.dir/Menu/Menu.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PriorityHour.dir\Menu\Menu.c.obj   -c "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Menu\Menu.c"
 
 CMakeFiles/PriorityHour.dir/Menu/Menu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PriorityHour.dir/Menu/Menu.c.i"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Menu\Menu.c > CMakeFiles\PriorityHour.dir\Menu\Menu.c.i
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Menu\Menu.c" > CMakeFiles\PriorityHour.dir\Menu\Menu.c.i
 
 CMakeFiles/PriorityHour.dir/Menu/Menu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PriorityHour.dir/Menu/Menu.c.s"
-	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\Menu\Menu.c -o CMakeFiles\PriorityHour.dir\Menu\Menu.c.s
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\Menu\Menu.c" -o CMakeFiles\PriorityHour.dir\Menu\Menu.c.s
 
 # Object files for target PriorityHour
 PriorityHour_OBJECTS = \
@@ -191,7 +191,7 @@ PriorityHour.exe: CMakeFiles/PriorityHour.dir/build.make
 PriorityHour.exe: CMakeFiles/PriorityHour.dir/linklibs.rsp
 PriorityHour.exe: CMakeFiles/PriorityHour.dir/objects1.rsp
 PriorityHour.exe: CMakeFiles/PriorityHour.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable PriorityHour.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable PriorityHour.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PriorityHour.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -204,6 +204,6 @@ CMakeFiles/PriorityHour.dir/clean:
 .PHONY : CMakeFiles/PriorityHour.dir/clean
 
 CMakeFiles/PriorityHour.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles\PriorityHour.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug" "E:\Egyetem\I ev\II felev\Adatszerkezetek_es_Algoritmusok\DSA_group_project_2\PriorityHour\cmake-build-debug\CMakeFiles\PriorityHour.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/PriorityHour.dir/depend
 

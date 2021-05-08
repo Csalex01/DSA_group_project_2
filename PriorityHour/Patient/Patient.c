@@ -138,7 +138,7 @@ void addPatient() {
     printf("\n");
 
 
-    printf("Birth date (yyy mm dd hh mm): ");
+    printf("Birth date (YYYY MM DD hh mm): ");
     scanf("%i %i %i %i %i", &year, &month, &day, &hour, &minute);
     printf("\n");
 
@@ -156,7 +156,6 @@ void addPatient() {
 
     PATIENT_COUNT++;
     PATIENTS = (Patient*)realloc(PATIENTS, PATIENT_COUNT);
-
     PATIENTS[PATIENT_COUNT - 1] = *patient;
 }
 

@@ -6,7 +6,7 @@
 #include "../Utility/Utility.h"
 
 Reservation *createReservation(char patientID[7], Date *scheduleDate) {
-    Reservation *reservation = (Reservation *)malloc(sizeof(Reservation));
+    Reservation *reservation = (Reservation *) malloc(sizeof(Reservation));
 
     if (!reservation) {
         printf("Failed to allocate memory for Reservation ");
@@ -34,7 +34,7 @@ Reservation *readReservationFromFile(char *fileName) {
     RESERVATION_COUNT = n;
 
     Reservation *reservations = (Reservation *) calloc(n, sizeof(Reservation));
-    Date* date = NULL;
+    Date *date = NULL;
 
     if (!reservations) {
         printf("Failed to allocate temporary vector for reservations!");
@@ -55,9 +55,31 @@ Reservation *readReservationFromFile(char *fileName) {
 
         date = createDate(year, month, day, hour, minute);
         reservations[i] = *createReservation(ID, date);
+
+        insert(&TREE, &reservations[i]);
     }
 
     return reservations;
+}
+
+Reservation *findReservationByPatientID(char *ID) {
+    for (int i = 0; i < RESERVATION_COUNT; i++)
+        if (!strcmp(RESERVATIONS[i].patientID, ID))
+            return &RESERVATIONS[i];
+
+    return NULL;
+}
+
+void printReservation(Reservation *reservation) {
+    printf("%s: \n", reservation->patientID);
+    printf("\tDate: %i-%i-%i, %i:%i\n",
+           reservation->scheduleDate->year,
+           reservation->scheduleDate->month,
+           reservation->scheduleDate->day,
+           reservation->scheduleDate->hour,
+           reservation->scheduleDate->minute);
+    printf("\tSymptoms: %s\n", findPatientById(reservation->patientID)->symptoms);
+    printf("\tTimespan: %i\n\n", reservation->timespan);
 }
 
 void destroyReservation(Reservation *reservation) {

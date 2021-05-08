@@ -18,9 +18,6 @@ int main() {
         printf("An error occurred while allocating memory for vector PATIENTS!");
         return -2;
     }
-
-    for(int i = 0; i < RESERVATION_COUNT; i++)
-        insert(&TREE, &RESERVATIONS[i]);
     /// ----------
 
     activateMenu();
