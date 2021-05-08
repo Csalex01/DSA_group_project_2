@@ -27,9 +27,13 @@ Patient *createPatent(char* ID,
 
 Patient *readPatientFromFile(char *fileName);
 
+Patient *findPatientById(char* ID);
+
+void addPatient();
+
 void printPatient(Patient *patient);
 
-void printAllPatient(Patient* patient);
+void printAllPatients();
 
 void killPatient(Patient* patient);
 

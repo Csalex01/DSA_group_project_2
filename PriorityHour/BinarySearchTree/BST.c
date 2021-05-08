@@ -1,7 +1,7 @@
 #include "BST.h"
 #include "../Utility/Utility.h"
 
-BST *createBST(Reservation* reservation) {
+BST *createBST(Reservation *reservation) {
     BST *tree = (struct BST *) malloc(sizeof(BST));
 
     if (!tree) {
@@ -25,22 +25,22 @@ BST *minValueBST(BST *tree) {
     return curret;
 }
 
-Reservation *findMax(BST *tree) {
+Reservation *maxValueBST(BST *tree) {
     if (tree->right)
-        findMax(tree->right);
+        maxValueBST(tree->right);
 
     return tree->reservation;
 }
 
 void insert(BST **tree, Reservation *reservation) {
-    if(reservation == NULL)
+    if (reservation == NULL)
         return;
 
     if ((*tree) == NULL) {
         *tree = createBST(reservation);
     } else {
 
-        Reservation *maxReservation = findMax(*tree);
+        Reservation *maxReservation = maxValueBST(*tree);
 
         int sum1 = convertToMinutes(maxReservation->scheduleDate);
         int sum2 = convertToMinutes(reservation->scheduleDate);
@@ -59,7 +59,7 @@ void insert(BST **tree, Reservation *reservation) {
 
 BST *deleteFromBST(BST *tree, Reservation *reservation) {
     if (tree == NULL)
-        return tree;
+        return NULL;
 
     if (isBigger(tree->reservation->scheduleDate, reservation->scheduleDate))
         tree->left = deleteFromBST(tree->left, reservation);
@@ -90,19 +90,19 @@ BST *deleteFromBST(BST *tree, Reservation *reservation) {
 }
 
 void traverse(BST *tree) {
-    if(tree == NULL)
+    if (tree == NULL)
         return;
 
     if (tree->left)
         traverse(tree->left);
 
-//    printf("%i %i %i %i %i\n ", tree->reservation->scheduleDate->year,
-//           tree->reservation->scheduleDate->month,
-//           tree->reservation->scheduleDate->day,
-//           tree->reservation->scheduleDate->hour,
-//           tree->reservation->scheduleDate->minute);
-
-    printf("%s ", tree->reservation->patientID);
+    printf("%s -> %i-%i-%i %i:%i\n ",
+           tree->reservation->patientID,
+           tree->reservation->scheduleDate->year,
+           tree->reservation->scheduleDate->month,
+           tree->reservation->scheduleDate->day,
+           tree->reservation->scheduleDate->hour,
+           tree->reservation->scheduleDate->minute);
 
     if (tree->right)
         traverse(tree->right);

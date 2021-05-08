@@ -1,25 +1,29 @@
 #include "Utility/Utility.h"
+#include "Menu/Menu.h"
 
 int main() {
 
+    /// Initializing global variables + error handling (DO NOT REMOVE)
+    RESERVATION_COUNT = 0;
+    PATIENT_COUNT = 0;
+
     RESERVATIONS = readReservationFromFile("reservations.txt");
-
-    BST* tree = NULL;
-
-    for (int i = 0; i < RESERVATION_COUNT; i++) {
-        printf("%s %i %i %i %i %i %i\n",
-               RESERVATIONS[i].patientID,
-               RESERVATIONS[i].scheduleDate->year,
-               RESERVATIONS[i].scheduleDate->month,
-               RESERVATIONS[i].scheduleDate->day,
-               RESERVATIONS[i].scheduleDate->hour,
-               RESERVATIONS[i].scheduleDate->minute,
-               RESERVATIONS[i].timespan
-        );
-        insert(&tree, &RESERVATIONS[i]);
+    if(!RESERVATIONS) {
+        printf("An error occurred while allocating memory for vector RESERVATIONS!");
+        return -1;
     }
 
-    traverse(tree);
+    PATIENTS = readPatientFromFile("patients.txt");
+    if(!PATIENTS) {
+        printf("An error occurred while allocating memory for vector PATIENTS!");
+        return -2;
+    }
+
+    for(int i = 0; i < RESERVATION_COUNT; i++)
+        insert(&TREE, &RESERVATIONS[i]);
+    /// ----------
+
+    activateMenu();
 
     return 0;
 }

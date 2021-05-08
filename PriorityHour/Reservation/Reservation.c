@@ -6,7 +6,7 @@
 #include "../Utility/Utility.h"
 
 Reservation *createReservation(char patientID[7], Date *scheduleDate) {
-    Reservation *reservation = (Reservation *) malloc(sizeof(Reservation));
+    Reservation *reservation = (Reservation *)malloc(sizeof(Reservation));
 
     if (!reservation) {
         printf("Failed to allocate memory for Reservation ");
@@ -34,6 +34,7 @@ Reservation *readReservationFromFile(char *fileName) {
     RESERVATION_COUNT = n;
 
     Reservation *reservations = (Reservation *) calloc(n, sizeof(Reservation));
+    Date* date = NULL;
 
     if (!reservations) {
         printf("Failed to allocate temporary vector for reservations!");
@@ -52,7 +53,8 @@ Reservation *readReservationFromFile(char *fileName) {
         fscanf(fin, "%i", &hour);
         fscanf(fin, "%i", &minute);
 
-        reservations[i] = *createReservation(ID, createDate(year, month, day, hour, minute));
+        date = createDate(year, month, day, hour, minute);
+        reservations[i] = *createReservation(ID, date);
     }
 
     return reservations;

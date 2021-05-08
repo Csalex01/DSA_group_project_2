@@ -4,7 +4,6 @@
 #include "Date.h"
 
 Date *createDate(int year, int month, int day, int hour, int minute) {
-
     Date *date = (Date *) malloc(sizeof(Date));
 
     if (!date) {
@@ -35,26 +34,34 @@ int convertToMinutes(Date *date) {
         date->month == 8 ||
         date->month == 10 ||
         date->month == 12) {
+
         sum += date->month * 31 * 24 * 60;
         sum += date->year * 12 * 31 * 24 * 60;
+
     } else if (date->month == 4 ||
                date->month == 6 ||
                date->month == 9 ||
                date->month == 11) {
+
         sum += date->month * 30 * 24 * 60;
         sum += date->year * 12 * 30 * 24 * 60;
+
     } else if (date->month == 2) {
+
         sum += date->month * 28 * 24 * 60;
         sum += date->year * 12 * 28 * 24 * 60;
+
     }
 
     return sum;
 }
 
 bool isBigger(Date *date1, Date *date2) {
-    // TODO: Refactor shitty code and escape branch hell.
-
-    if (date1 == NULL || date2 == NULL)
+    if (date1 == NULL && date2 != NULL)
+        return false;
+    else if (date1 != NULL && date2 == NULL)
+        return true;
+    else if (date1 == NULL || date2 == NULL)
         return false;
 
     if (date1->year > date2->year) {
@@ -102,7 +109,13 @@ bool isBigger(Date *date1, Date *date2) {
 }
 
 void printDate(Date *date) {
-    printf("%i-%i-%i, %i:%i\n", date->year, date->month, date->day, date->hour, date->minute);
+    printf("%i-%i-%i, %i:%i\n",
+           date->year,
+           date->month,
+           date->day,
+           date->hour,
+           date->minute);
+
     printf("\n");
 }
 

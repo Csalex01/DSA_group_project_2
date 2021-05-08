@@ -12,6 +12,7 @@
 /// Vectors
 Patient* PATIENTS;
 Reservation* RESERVATIONS;
+BST* TREE;
 
 /// Counters
 int PATIENT_COUNT;

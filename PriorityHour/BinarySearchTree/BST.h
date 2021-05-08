@@ -15,7 +15,7 @@ BST* deleteFromBST(BST* tree, Reservation* reservation);
 
 BST* minValueBST(BST* tree);
 
-Reservation* findMax(BST* tree);
+Reservation* maxValueBST(BST* tree);
 
 void insert(BST** tree, Reservation *reservation);
 
