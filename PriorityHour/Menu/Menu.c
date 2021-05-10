@@ -5,7 +5,7 @@
 #include "Menu.h"
 #include "../Utility/Utility.h"
 
-// Main menu
+/// Main menu
 void activateMenu() {
     int choice;
 
@@ -150,7 +150,7 @@ void reservationOperations_addNewReservation() {
     Reservation *reservation = createReservation(ID, scheduleDate);
 
 //    RESERVATION_COUNT++;
-//    RESERVATIONS = (Reservation *) realloc(RESERVATIONS, RESERVATION_COUNT);
+//    RESERVATIONS = (Reservation *) realloc (RESERVATIONS, RESERVATION_COUNT);
 //    RESERVATIONS[RESERVATION_COUNT - 1] = *reservation;
 
     insert(&TREE, reservation);
@@ -163,7 +163,7 @@ void reservationOperations_deleteReservation() {
     scanf("%s", ID);
     printf("\n");
 
-    Reservation* reservation = findReservationByPatientID(ID);
+    Reservation *reservation = findReservationByPatientID(ID);
 
     deleteFromBST(TREE, reservation);
 }

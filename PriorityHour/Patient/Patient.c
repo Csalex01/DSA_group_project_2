@@ -160,6 +160,9 @@ void addPatient() {
 }
 
 void printPatient(Patient *patient) {
+    if(!patient)
+        return;
+
     printf("ID: %s\n", patient->ID);
     printf("\tName: \t\t%s %s\n", patient->firstName, patient->lastName);
     printf("\tBirth date: \t%i-%i-%i\n",
@@ -208,7 +211,6 @@ void printPatient(Patient *patient) {
 }
 
 void printAllPatients() {
-
     for (int i = 0; i < PATIENT_COUNT; i++) {
         printPatient(&PATIENTS[i]);
     }

@@ -2,7 +2,6 @@
 #include "Menu/Menu.h"
 
 int main() {
-
     /// Initializing global variables + error handling (DO NOT REMOVE)
     RESERVATION_COUNT = 0;
     PATIENT_COUNT = 0;
@@ -20,6 +19,7 @@ int main() {
     }
     /// ----------
 
+    /// Activate the menu system
     activateMenu();
 
     return 0;
