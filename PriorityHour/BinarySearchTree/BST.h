@@ -3,7 +3,7 @@
 
 #include "../Reservation/Reservation.h"
 
-/// Definition of the Binary Search Tree
+/// Definition of the Binary Search Tree structure
 typedef struct BST {
     Reservation *reservation;
     struct BST *left;

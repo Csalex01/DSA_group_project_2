@@ -104,9 +104,6 @@
 		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Reservation/Reservation.h">
 			<Option target="PriorityHour"/>
 		</Unit>
-		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Utility/Utility.c">
-			<Option target="PriorityHour"/>
-		</Unit>
 		<Unit filename="E:/Egyetem/I ev/II felev/Adatszerkezetek_es_Algoritmusok/DSA_group_project_2/PriorityHour/Utility/Utility.h">
 			<Option target="PriorityHour"/>
 		</Unit>

@@ -23,15 +23,23 @@ void activateMenu() {
         printf("\n");
 
         switch (choice) {
+
+            /// Patient operations
             case 1:
                 patientOperations();
                 break;
+
+            /// Reservation operations
             case 2:
                 reservationOperations();
                 break;
+
+            /// Exit
             case 3:
                 printf("=========> Goodbye! <=========\n");
                 exit(0);
+
+            /// DEFAULT case
             default:
                 printf("==> Error: UNDEFINED INPUT <==\n");
                 exit(-1);
@@ -39,7 +47,9 @@ void activateMenu() {
     }
 }
 
-// Submenus
+/// Submenus
+
+// Patient Operations
 void patientOperations() {
     int choice;
 
@@ -58,17 +68,28 @@ void patientOperations() {
         printf("\n");
 
         switch (choice) {
+
+            /// Find patient by ID
             case 1:
                 patientOperations_findPatientById();
                 break;
+
+            /// Add patient
             case 2:
                 addPatient();
                 break;
+
+            /// Print all patients
             case 3:
                 printAllPatients();
                 break;
+
+            /// Back to main menu
             case 4:
                 activateMenu();
+                break;
+
+            /// DEFAULT case
             default:
                 printf("==> Error: UNDEFINED INPUT <==\n");
                 exit(-1);
@@ -76,6 +97,7 @@ void patientOperations() {
     }
 }
 
+// Reservation Operations
 void reservationOperations() {
     int choice;
 
@@ -94,17 +116,28 @@ void reservationOperations() {
         printf("\n");
 
         switch (choice) {
+
+            /// Add a new reservation
             case 1:
                 reservationOperations_addNewReservation();
                 break;
+
+            /// Delete a reservation
             case 2:
                 reservationOperations_deleteReservation();
                 break;
+
+            /// Print all reservations
             case 3:
                 traverse(TREE);
                 break;
+
+            /// Back to main menu
             case 4:
                 activateMenu();
+                break;
+
+            /// DEFAULT case
             default:
                 printf("==> Error: UNDEFINED INPUT <==\n");
                 exit(-1);
@@ -112,7 +145,8 @@ void reservationOperations() {
     }
 }
 
-// Helper functions for patient operations
+/// Helper functions for patient operations
+// This function prints out a Patient with the given ID
 void patientOperations_findPatientById() {
     char ID[7];
 
@@ -124,7 +158,8 @@ void patientOperations_findPatientById() {
     printPatient(findPatientById(ID));
 }
 
-// Helper functions for reservation operations
+/// Helper functions for reservation operations
+// This function adds a new Reservation to the BST
 void reservationOperations_addNewReservation() {
     char ID[7];
 
@@ -149,13 +184,10 @@ void reservationOperations_addNewReservation() {
 
     Reservation *reservation = createReservation(ID, scheduleDate);
 
-//    RESERVATION_COUNT++;
-//    RESERVATIONS = (Reservation *) realloc (RESERVATIONS, RESERVATION_COUNT);
-//    RESERVATIONS[RESERVATION_COUNT - 1] = *reservation;
-
     insert(&TREE, reservation);
 }
 
+// This function deletes a Reservation from the BST by a given ID
 void reservationOperations_deleteReservation() {
     char ID[7];
 

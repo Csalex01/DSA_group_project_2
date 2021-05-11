@@ -4,6 +4,7 @@
 
 #include "../Utility/Utility.h"
 
+/// Allocate a Patient in memory
 Patient *createPatent(char *ID,
                       char *fistName,
                       char *lastName,
@@ -12,13 +13,17 @@ Patient *createPatent(char *ID,
                       Date *birthDate,
                       char *symptoms) {
 
+    /// Allocates a temporary Patient in memory
     Patient *patient = (Patient *) malloc(sizeof(Patient));
 
+    /// Checks whether the memory allocation was successful or not
     if (!patient) {
         printf("Failed to allocate memory for Patient");
         return NULL;
     }
 
+    /// Initializes the fields of the structure
+    // Note: Strings require strcpy()!
     strcpy(patient->ID, ID);
     strcpy(patient->firstName, fistName);
     strcpy(patient->lastName, lastName);
@@ -27,31 +32,40 @@ Patient *createPatent(char *ID,
     patient->birthDate = *birthDate;
     strcpy(patient->symptoms, symptoms);
 
+    /// Return the Patient
     return patient;
 }
 
+/// Read Patients from file
 Patient *readPatientFromFile(char *fileName) {
 
+    /// Open the file with the given name
     FILE *fin = fopen(fileName, "rt");
 
+    /// Checks whether the file exists or not
     if (!fin) {
         printf("Could not open file %s", fileName);
         return NULL;
     }
 
+    /// Get the number of Patients
     int n;
     fscanf(fin, "%i", &n);
 
+    /// Set the PATIENT_COUNT to n
     PATIENT_COUNT = n;
 
+    /// Allocate a Patient array with the size of n (or PATIENT_COUNT)
     Patient *patient = (Patient *) calloc(n, sizeof(Patient));
 
+    /// Checks whether the memory allocation was successful or not
     if (!patient) {
         printf("Failed to allocate temporary vector for patients!");
         fclose(fin);
         return NULL;
     }
 
+    /// Temporary variables for the Patient
     char ID[7];
     char firstName[30];
     char lastName[30];
@@ -63,6 +77,7 @@ Patient *readPatientFromFile(char *fileName) {
     enum Sex sex;
     enum Nationality nationality;
 
+    /// Read the data from the file in the correct sequence
     for (int i = 0; i < n; i++) {
         fscanf(fin, "%s", ID);
         fscanf(fin, "%s", firstName);
@@ -77,24 +92,33 @@ Patient *readPatientFromFile(char *fileName) {
 
         fscanf(fin, "%s", symptoms);
 
+        /// Create a Date based on the input
         birthDate = createDate(year, month, day, 0, 0);
 
+        /// Create a Patient based on the input and add it to the array
         patient[i] = *createPatent(ID, firstName, lastName, sex, nationality, birthDate, symptoms);
     }
 
+    /// Close the file, because it is no longer needed
     fclose(fin);
 
+    /// Return the Patients
     return patient;
 }
 
+/// Return a Patient by a given ID
 Patient *findPatientById(char *ID) {
+    /// Linear search
     for (int i = 0; i < PATIENT_COUNT; i++)
         if (!strcmp(PATIENTS[i].ID, ID))
             return &PATIENTS[i];
+
     return NULL;
 }
 
+/// Add a Patient
 void addPatient() {
+    /// Temporary variables for the Patient
     char ID[7];
     char firstName[30];
     char lastName[30];
@@ -107,6 +131,7 @@ void addPatient() {
 
     char symptoms[50];
 
+    /// Gets the data from the standard input (user/terminal)
     printf("Patient ID (7 characters):");
     scanf("%s", ID);
     printf("\n");
@@ -145,6 +170,7 @@ void addPatient() {
     printf("Symptoms (use \"_\" instead of spaces, max. 50 characters: ");
     scanf("%s", symptoms);
 
+    /// Creates a Patient based on the input
     Patient *patient = createPatent(ID,
                                     firstName,
                                     lastName,
@@ -154,11 +180,14 @@ void addPatient() {
                                     symptoms
     );
 
+    /// Insert the new Patient to the PATIENTS array
+    /// with the help of realloc()
     PATIENT_COUNT++;
     PATIENTS = (Patient*)realloc(PATIENTS, PATIENT_COUNT);
     PATIENTS[PATIENT_COUNT - 1] = *patient;
 }
 
+/// Print a given Patient to the standard output
 void printPatient(Patient *patient) {
     if(!patient)
         return;
@@ -210,12 +239,14 @@ void printPatient(Patient *patient) {
     printf("\tSymptoms: \t%s\n\n", patient->symptoms);
 }
 
+/// Print all Patients to the standard output
 void printAllPatients() {
     for (int i = 0; i < PATIENT_COUNT; i++) {
         printPatient(&PATIENTS[i]);
     }
 }
 
+/// Deallocates a Patient from memory
 void killPatient(Patient *patient) {
     free(patient);
     patient = NULL;

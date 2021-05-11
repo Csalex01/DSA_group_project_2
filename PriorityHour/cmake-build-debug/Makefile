@@ -277,33 +277,6 @@ Reservation/Reservation.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Reservation/Reservation.c.s
 .PHONY : Reservation/Reservation.c.s
 
-Utility/Utility.obj: Utility/Utility.c.obj
-
-.PHONY : Utility/Utility.obj
-
-# target to build an object file
-Utility/Utility.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility/Utility.c.obj
-.PHONY : Utility/Utility.c.obj
-
-Utility/Utility.i: Utility/Utility.c.i
-
-.PHONY : Utility/Utility.i
-
-# target to preprocess a source file
-Utility/Utility.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility/Utility.c.i
-.PHONY : Utility/Utility.c.i
-
-Utility/Utility.s: Utility/Utility.c.s
-
-.PHONY : Utility/Utility.s
-
-# target to generate assembly for a file
-Utility/Utility.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityHour.dir\build.make CMakeFiles/PriorityHour.dir/Utility/Utility.c.s
-.PHONY : Utility/Utility.c.s
-
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -355,9 +328,6 @@ help:
 	@echo ... Reservation/Reservation.obj
 	@echo ... Reservation/Reservation.i
 	@echo ... Reservation/Reservation.s
-	@echo ... Utility/Utility.obj
-	@echo ... Utility/Utility.i
-	@echo ... Utility/Utility.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

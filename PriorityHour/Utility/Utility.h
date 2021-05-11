@@ -17,7 +17,6 @@ BST* TREE;
 /// Counters
 int PATIENT_COUNT;
 int RESERVATION_COUNT;
-
 /// ----------
 
 #endif //PRIORITYHOUR_UTILITY_H

@@ -3,7 +3,7 @@
 
 /// Allocates a BST in memory
 BST *createBST(Reservation *reservation) {
-    /// Allocates a temporary tree in memory
+    /// Allocates a temporary BST in memory
     BST *tree = (struct BST *) malloc(sizeof(BST));
 
     /// Checks whether the memory allocation was successful or not
@@ -17,7 +17,7 @@ BST *createBST(Reservation *reservation) {
     tree->left = NULL;
     tree->right = NULL;
 
-    /// Returns the tree
+    /// Returns the BST
     return tree;
 }
 
@@ -95,6 +95,7 @@ BST *deleteFromBST(BST *tree, Reservation *reservation) {
         /// Delete from the right subtree
         tree->right = deleteFromBST(tree->right, reservation);
 
+    /// Else, *do magic*
     else {
 
         if (tree->left == NULL) {
@@ -114,19 +115,24 @@ BST *deleteFromBST(BST *tree, Reservation *reservation) {
         tree->right = deleteFromBST(tree->right, tmp->reservation);
     }
 
+    /// Return the tree
     return tree;
 }
 
 /// Inorder traversal of the tree
 void traverse(BST *tree) {
+    /// If the tree does not exist, do nothing
     if (tree == NULL)
         return;
 
+    /// Go left
     if (tree->left)
         traverse(tree->left);
 
+    /// Print the reservation
     printReservation(tree->reservation);
 
+    /// Go right
     if (tree->right)
         traverse(tree->right);
 }
