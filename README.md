@@ -2,6 +2,11 @@
 
 ### Project status: Complete
 
+## 👥 Team Members 👥
+- Csata L. Levente
+- Csillag Alex
+- Miklós Nándor
+
 ## 📖 Description 📖
 
 This tool offers help for doctors to schedule appointments.
