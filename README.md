@@ -20,8 +20,8 @@ This tool offers help for doctors to schedule appointments.
 	- Swedish
 
 - Sex
-	- Male
 	- Female
+	- Male
 
 ## Menu structure
 
