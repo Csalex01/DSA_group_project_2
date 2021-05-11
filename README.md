@@ -89,7 +89,7 @@ This tool offers help for doctors to schedule appointments.
 - char lastName[30]
 	- Last name of the Patient
 - Sex sex
-	- The sex/gender assigned at birth of the Patient
+	- The sex/gender assigned at birth for the Patient
 - Date birthDate
 	- The Patient's birth of date
 - char symptoms[50]
